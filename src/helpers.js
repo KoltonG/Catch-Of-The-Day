@@ -1,5 +1,3 @@
-// Helpers File
-
 /**
  * Price formatter function that takes in cents and outputs USD currency
  * @param {Number} cents
