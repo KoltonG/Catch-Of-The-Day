@@ -1,17 +1,17 @@
 /**
  * Price formatter function that takes in cents and outputs USD currency
- * @param {Number} cents
+ * @param {number} cents Price in cents
  */
 export function formatPrice(cents) {
-  return (cents / 100).toLocaleString("en-US", {
-    style: "currency",
-    currency: "USD"
+  return (cents / 100).toLocaleString('en-US', {
+    style: 'currency',
+    currency: 'USD'
   });
 }
 
 /**
  * Random array item selection function
- * @param {Object} arr
+ * @param {Object[]} arr
  */
 export function rando(arr) {
   return arr[Math.floor(Math.random * arr.length)];
