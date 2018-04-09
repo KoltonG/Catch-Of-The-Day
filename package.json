@@ -8,7 +8,10 @@
     "start": "react-scripts start"
   },
   "devDependencies": {
+    "babel-preset-airbnb": "^2.4.0",
     "concurrently": "^3.5.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
     "react-scripts": "^1.1.1"
   },
   "dependencies": {
