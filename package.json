@@ -5,7 +5,8 @@
   "author": "Kolton Gagnon",
   "license": "ISC",
   "scripts": {
-    "start": "react-scripts start"
+    "start": "react-scripts start",
+    "lint": "eslint ."
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
