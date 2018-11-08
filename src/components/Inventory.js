@@ -1,14 +1,18 @@
-/* eslint-disable */
-import React from 'react';
+/**
+ * Imports
+ */
+// Libraries
+import React, { Component } from 'react';
 
-class Inventory extends React.Component {
+/**
+ * Component - Inventory
+ */
+export default class Inventory extends Component {
   render() {
     return (
       <div className="inventory">
         Inventory!!
       </div>
-    )
+    );
   }
 }
-
-export default Inventory

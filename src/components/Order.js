@@ -1,14 +1,19 @@
-/* eslint-disable */
-import React from 'react';
+/**
+ * Imports
+ */
+// Libraries
+import React, { Component } from 'react';
 
-class Order extends React.Component {
+
+/**
+ * Component - Order
+ */
+export default class Order extends Component {
   render() {
     return (
       <div className="order">
         Order!!!
       </div>
-    )
+    );
   }
 }
-
-export default Order
