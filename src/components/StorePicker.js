@@ -7,7 +7,7 @@ import React, { Component } from 'react';
 /**
  * Component - StorePicker
  */
-class StorePicker extends Component {
+export default class StorePicker extends Component {
   render() {
     return (
       <form className="store-selector">
@@ -18,5 +18,3 @@ class StorePicker extends Component {
     );
   }
 }
-
-export default StorePicker;

@@ -4,6 +4,7 @@
 // Libraries
 import React, { Component } from 'react';
 
+
 /**
  * Component - Inventory
  */

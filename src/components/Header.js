@@ -10,7 +10,7 @@ import React, { Component } from 'react';
  *
  * This renders the Catch Of The Day header content
  */
-class Header extends Component {
+export default class Header extends Component {
   render() {
     return (
       <header className="top">
@@ -29,5 +29,3 @@ class Header extends Component {
     );
   }
 }
-
-export default Header
